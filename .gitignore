@@ -1,0 +1,7 @@
+backups/
+badcrap/
+notneeded/
+error_log*
+*bak
+*.swp
+db_pass.php
