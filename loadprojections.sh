@@ -2,8 +2,8 @@
 
 baseurl="http://games.espn.com/flb/tools/projections?&slotCategoryId="
 
-declare -A postrans=( ["C"]=0 ["1B"]=1 ["2B"]=2 ["3B"]=3 ["SS"]=4 ["OF"]=5 ["SP"]=14 ["RP"]=15  )
-declare -A playerpgct=( ["C"]=2 ["1B"]=2 ["2B"]=2 ["3B"]=2 ["SS"]=2 ["OF"]=3 ["SP"]=4 ["RP"]=3  )
+declare -A postrans=( ["C"]=0 ["1B"]=1 ["2B"]=2 ["3B"]=3 ["SS"]=4 ["OF"]=5 ["DH"]=11 ["SP"]=14 ["RP"]=15  )
+declare -A playerpgct=( ["C"]=2 ["1B"]=2 ["2B"]=2 ["3B"]=2 ["SS"]=2 ["OF"]=3 ["DH"]=1 ["SP"]=4 ["RP"]=3 )
 
 for pos in ${!postrans[@]}
 do

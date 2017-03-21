@@ -16,7 +16,7 @@
     #var_dump($postin);
     $email=$postin['email'];
     $passwd=$postin['passwd'];
-    $db = mysql_connect("localhost", $mysql_user, $mysql_pass);
+    $db = mysql_connect("matthearn.com", $mysql_user, $mysql_pass);
     #print "mysql user ".$mysql_user;
     mysql_select_db("matthear_fantasybaseball");
     $user_query="SELECT * from Users where email=\"$email\"";
